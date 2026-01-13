@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todolist</title>
+
+  <!-- Icon -->
+  <link rel="icon" href="images/icon.png">
+
+  <!-- Font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+
+    <!-- Header-->
+    <header class="panel">
+      <h1>Todolist App</h1>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Message to display if there is no activity -->
+      <p class="empty-list-message"></p>
+
+      <!-- Activities list -->
+      <ul class="todo-list">
+
+      </ul>
+
+      <!-- Add Activity Textbox -->
+      <div class="panel add-todo">
+        <input type="text" placeholder="Aggiungi attività">
+        <button>
+          <img src="images/add.svg" alt="plus icon">
+        </button>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Javascript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
